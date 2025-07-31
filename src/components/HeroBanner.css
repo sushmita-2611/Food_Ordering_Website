@@ -1,0 +1,62 @@
+.hero-banner {
+  height: 400px;
+  margin: 40px auto;
+  width: 80%;
+  border-radius: 20px;
+  background-image: url('Banner.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px;
+  color: rgb(155, 67, 67);
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+
+.hero-banner::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:none;
+  border-radius: 20px;
+
+}
+
+.hero-content {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+  max-width: 500px;
+  padding-left: 40px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-top: 50px
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.explore-btn {
+  padding: 10px 25px;
+  background-color: #ff4d00;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #e04000;
+}
+

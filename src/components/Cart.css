@@ -1,0 +1,72 @@
+.cart {
+  padding: 10px;
+  background: #fff8f2;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.cart-heading {
+  font-size: 1.8rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.empty-cart {
+  text-align: center;
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 12px 20px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.cart-item span {
+  font-size: 1rem;
+  color: #333;
+}
+
+.cart-footer {
+  text-align: center;
+  background-color: #fff0e6;
+  padding: 16px;
+  border-top: 1px solid #ccc;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.download-buttons button {
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff4d00;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-buttons button:hover {
+  background-color: #e04000;
+}
